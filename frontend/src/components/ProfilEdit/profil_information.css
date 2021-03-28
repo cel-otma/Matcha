@@ -1,0 +1,21 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* .form-cont {
+    background-color: #915ACE;
+    width: 60%;
+    height: 104%;
+    border-radius: 20px;
+} */
+.contener_info{
+    /* display: flex; */
+    align-items: start;
+    position: absolute;
+    padding: 70px 0 30px 0;
+}
+.title{
+    margin: 50px;
+    font-size: 30px;
+}

@@ -1,0 +1,167 @@
+.TopContent{
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100px;
+    width: 100%;
+    /* margin: 10px !important; */
+}
+.TopcontentPassword{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.LeftContent{
+    margin: 10px;
+    width: 30%;
+    min-width: 200px;
+
+}
+.RigthContent{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 60%;
+    min-width: 320px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 2px 2px 20px black;
+    
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 440px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.RigthContent h1{
+    text-align: initial;
+}
+.cardProfil{
+    min-width: 230px;
+    position: relative;
+    display: flex;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 15px;
+    margin: 2%;
+    flex-direction: column;
+}
+.cardProfil {
+    padding: 10px;
+}
+.row .editposition{
+    position: absolute;
+    right: 31%;
+    color: rgb(46, 226, 15);
+    font-size: 15px;
+    background: #2b85e2;
+    border-radius: 5px;
+  }
+h1{
+    font-size: 20px !important;
+  margin-left: 0 !important;
+}
+.cardProfil .image img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border-radius: 50%;
+   }
+.image{
+width: 100px;
+height: 100px;
+/* margin: auto; */
+position: relative;
+}
+.deletIcon{
+    position: absolute;
+    bottom: 17px;
+    right: 0;
+    color: #ff6f6f;
+}
+.des{
+padding: 3px;
+}
+.FriendsViews{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.Friends span{
+    position: relative;
+    right: 3px;
+    top: -9px;
+    margin: -4px;
+    color: chocolate;
+}
+.Views span{
+    position: relative;
+    right: 26px;
+    top: 9px;
+    color: chocolate;
+}
+.ContentInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.MuiFormGroup-root{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.AllContent{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imageProfil2{
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+    height: 103px;
+}
+.image_select img {
+    width: 100%;
+    height: 100%;
+}
+.MuiRating-label {
+    color: #ffb400;
+}
+#Validet{
+    padding: 10px;
+    color: white;
+    background-color: #55218a;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 72px;
+}
+#Take{
+    padding: 7px;
+    color: white;
+    background-color: #55218a;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 9%;
+}
+
+@media (max-width:990px) {
+    .row .editprofil{
+    position: absolute;
+    right: 20%;
+    color: rgb(46, 226, 15);
+    font-size: 7px;
+    background: #2b85e2;
+    border-radius: 5px;
+    }
+   
+}
